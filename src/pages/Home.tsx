@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { BookingButton } from "@/components/BookingButton";
 import {
   Accordion,
   AccordionContent,
@@ -146,6 +147,9 @@ export default function Home({ targetSection }: HomeProps) {
             <Link href="/faq" className="text-muted-foreground hover:text-foreground">
               FAQ
             </Link>
+            <a href="https://booking.uk.hsone.app/soe/new?pid=UIKIL01" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+              Dental Booking
+            </a>
           </nav>
 
           <div className="flex items-center gap-2">
@@ -203,6 +207,7 @@ export default function Home({ targetSection }: HomeProps) {
                     Call {clinic.phone}
                   </a>
                 </Button>
+                <BookingButton className="bg-amber-500 text-white hover:bg-amber-500/90" />
                 <Button asChild size="lg" variant="outline" className="border-teal-600/30">
                   <a href={clinic.mapUrl} target="_blank" rel="noreferrer">
                     <MapPin className="mr-2 h-5 w-5" />
