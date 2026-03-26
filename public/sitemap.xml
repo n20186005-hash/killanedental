@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Example multilingual page -->
+  <url>
+    <loc>https://yourdomain.com/en/page-path</loc>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="en" 
+               href="https://yourdomain.com/en/page-path"/>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="zh" 
+               href="https://yourdomain.com/zh/page-path"/>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="x-default" 
+               href="https://yourdomain.com/page-path"/>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/zh/page-path</loc>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="en" 
+               href="https://yourdomain.com/en/page-path"/>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="zh" 
+               href="https://yourdomain.com/zh/page-path"/>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="x-default" 
+               href="https://yourdomain.com/page-path"/>
+  </url>
+
+  <!-- Default version -->
+  <url>
+    <loc>https://yourdomain.com/page-path</loc>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="en" 
+               href="https://yourdomain.com/en/page-path"/>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="zh" 
+               href="https://yourdomain.com/zh/page-path"/>
+    <xhtml:link 
+               rel="alternate" 
+               hreflang="x-default" 
+               href="https://yourdomain.com/page-path"/>
+  </url>
+
+</urlset>
