@@ -1,55 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Example multilingual page -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yourdomain.com/en/page-path</loc>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="en" 
-               href="https://yourdomain.com/en/page-path"/>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="zh" 
-               href="https://yourdomain.com/zh/page-path"/>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="x-default" 
-               href="https://yourdomain.com/page-path"/>
+    <loc>https://www.killanedental.com/</loc>
   </url>
-
   <url>
-    <loc>https://yourdomain.com/zh/page-path</loc>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="en" 
-               href="https://yourdomain.com/en/page-path"/>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="zh" 
-               href="https://yourdomain.com/zh/page-path"/>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="x-default" 
-               href="https://yourdomain.com/page-path"/>
+    <loc>https://www.killanedental.com/medical-card-dentist-dun-laoghaire/</loc>
   </url>
-
-  <!-- Default version -->
   <url>
-    <loc>https://yourdomain.com/page-path</loc>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="en" 
-               href="https://yourdomain.com/en/page-path"/>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="zh" 
-               href="https://yourdomain.com/zh/page-path"/>
-    <xhtml:link 
-               rel="alternate" 
-               hreflang="x-default" 
-               href="https://yourdomain.com/page-path"/>
+    <loc>https://www.killanedental.com/preventive-dentistry-dun-laoghaire/</loc>
   </url>
-
+  <url>
+    <loc>https://www.killanedental.com/dental-hygiene-dun-laoghaire/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/restorative-dentistry-dun-laoghaire/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/cosmetic-dentistry-dun-laoghaire/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/family-dentist-dun-laoghaire/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/nervous-patients/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/new-patients/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/about/dr-robert-killane/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/reviews/</loc>
+  </url>
+  <url>
+    <loc>https://www.killanedental.com/contact/</loc>
+  </url>
 </urlset>

@@ -1,16 +1,32 @@
 export const clinic = {
   name: "Killane Dental Care",
+  domain: "https://www.killanedental.com",
+  bookingUrl: "https://booking.uk.hsone.app/soe/new?pid=UIKIL01",
   rating: 5.0,
   reviewCount: 343,
-  address: "135 George's Street Lower, Dún Laoghaire, Dublin, A96 K825, Ireland",
   phone: "+353 1 663 8100",
+  address: {
+    line1: "135 George's Street Lower",
+    locality: "Dún Laoghaire",
+    region: "Dublin",
+    postalCode: "A96 K825",
+    country: "Ireland",
+  },
+  fullAddress: "135 George's Street Lower, Dún Laoghaire, Dublin, A96 K825, Ireland",
   plusCode: "7VV5+X4 Dublin, Ireland",
+  geo: {
+    latitude: 53.2949715,
+    longitude: -6.1421745,
+  },
+  acceptsMedicalCard: true,
+  acceptsNewPatients: true,
+  doctorName: "Dr. Robert Killane",
   hours: [
-    { day: "Monday", hours: "9AM–6PM" },
-    { day: "Tuesday", hours: "9AM–7PM" },
-    { day: "Wednesday", hours: "9AM–5PM" },
-    { day: "Thursday", hours: "9AM–6PM" },
-    { day: "Friday", hours: "9AM–3PM" },
+    { day: "Monday", hours: "9AM–6PM", opens: "09:00", closes: "18:00" },
+    { day: "Tuesday", hours: "9AM–7PM", opens: "09:00", closes: "19:00" },
+    { day: "Wednesday", hours: "9AM–5PM", opens: "09:00", closes: "17:00" },
+    { day: "Thursday", hours: "9AM–6PM", opens: "09:00", closes: "18:00" },
+    { day: "Friday", hours: "9AM–3PM", opens: "09:00", closes: "15:00" },
     { day: "Saturday", hours: "Closed" },
     { day: "Sunday", hours: "Closed" },
   ],
@@ -18,6 +34,7 @@ export const clinic = {
     '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38119.1162566683!2d-6.326763227772612!3d53.33529411557465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867062059abed2d%3A0x8561cde2a1285334!2sKillane%20Dental%20Care!5e0!3m2!1sen!2sus!4v1773814657582!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
   mapUrl:
     "https://www.google.com/maps/place/Killane+Dental+Care/@53.2949715,-6.1421745,17z/data=!4m8!3m7!1s0x4867062059abed2d:0x8561cde2a1285334!8m2!3d53.2949715!4d-6.1421745!9m1!1b1!16s%2Fg%2F11bbr9hz9d",
+  supportEmail: "claritleonelmnicol@gmail.com",
 } as const;
 
 export const reviews = [
@@ -62,23 +79,28 @@ export const reviews = [
 export const services = [
   {
     title: "Preventive Dentistry",
-    desc: "Routine exams and personalized guidance to keep your smile healthy.",
+    href: "/preventive-dentistry-dun-laoghaire",
+    desc: "Routine exams and tailored advice to help prevent small issues from becoming larger ones.",
   },
   {
     title: "Hygiene & Cleaning",
-    desc: "Professional cleaning and hygiene care designed for comfort.",
+    href: "/dental-hygiene-dun-laoghaire",
+    desc: "Professional hygiene appointments designed to support gum health and a cleaner, fresher smile.",
   },
   {
     title: "Restorative Care",
-    desc: "Support for common dental needs with a calm, precise approach.",
+    href: "/restorative-dentistry-dun-laoghaire",
+    desc: "Thoughtful care for common restorative needs, with clear explanations and a steady approach.",
   },
   {
     title: "Cosmetic Treatments",
-    desc: "Options to enhance your smile—please call to confirm availability.",
+    href: "/cosmetic-dentistry-dun-laoghaire",
+    desc: "Cosmetic treatment options to enhance your smile. Please call to confirm current availability.",
   },
   {
     title: "Family Dentistry",
-    desc: "A welcoming experience for adults and children alike.",
+    href: "/family-dentist-dun-laoghaire",
+    desc: "A calm, welcoming environment for adults, children, and families visiting together.",
   },
 ] as const;
 
